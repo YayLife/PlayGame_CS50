@@ -12,7 +12,7 @@ chrome_options.add_argument("headless")
 driver = webdriver.Chrome(options=chrome_options)
 
 # driver = webdriver.Chrome()
-
+#Just added a comment
 
 def file_uri(filename):
     return pathlib.Path(os.path.abspath(filename)).as_uri()
